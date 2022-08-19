@@ -29,6 +29,11 @@ HTML &amp; CSS Basic Notes and Some Apps
 * Inline, Block & Inline-Block Display [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/12_Inline_block.html)
 * Positioning [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/13_Positioning.html)
 * Form Styling [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/14_form_styling.html)
+* Media Queries [GO]()
+* Em & Rem Units [GO]()
+* Vh & Vw Units [GO]()
+* Flex box Basics & Properties [GO]()
+* Flex Alignment & Justify [GO]()
 
 ## SASS
 
