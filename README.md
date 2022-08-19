@@ -34,6 +34,13 @@ HTML &amp; CSS Basic Notes and Some Apps
 * Vh & Vw Units [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/17_vh_vw.html)
 * Flex box Basics & Properties [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/18_flex_basics.html)
 * Flex Alignment & Justify [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/19_flex-align.html)
+* Targeted Selectors [GO]()
+* nth-child Pseudo Selectors [GO]()
+* before & after Pseudo Selectors [GO]()
+* CSS Variable [GO]()
+* Keyframe Animation [GO]()
+* CSS Transitions [GO]()
+* Transform Property [GO]()
 
 ## SASS
 
