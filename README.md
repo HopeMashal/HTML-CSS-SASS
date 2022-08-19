@@ -51,3 +51,7 @@ HTML &amp; CSS Basic Notes and Some Apps
   * With Responsive [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Apps/hotel_website_responsive/index.html)
 * EdgeLedger Website [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Apps/edgeledger_website/index.html)
 * Website Deployment (with PHP Script) [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Apps/edgeledger_website_final/index.html)
+* Presentation Website [GO]()
+* Hamburger Menu Overlay [GO]()
+* Knowledge Timeline [GO]()
+* Quick Dropdown Menu [GO]()
