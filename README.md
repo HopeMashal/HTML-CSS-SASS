@@ -61,3 +61,4 @@ HTML &amp; CSS Basic Notes and Some Apps
 * Hamburger Menu Overlay [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Apps/hamburger_overlay_menu/index.html)
 * Knowledge Timeline [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Apps/knowledge_resume/index.html)
 * Quick Dropdown Menu [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Apps/dropdown/index.html)
+* NewsGrid Website [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Apps/newsgrid/index.html)
