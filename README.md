@@ -34,13 +34,13 @@ HTML &amp; CSS Basic Notes and Some Apps
 * Vh & Vw Units [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/17_vh_vw.html)
 * Flex box Basics & Properties [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/18_flex_basics.html)
 * Flex Alignment & Justify [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/19_flex-align.html)
-* Targeted Selectors [GO]()
-* nth-child Pseudo Selectors [GO]()
-* before & after Pseudo Selectors [GO]()
-* CSS Variable [GO]()
-* Keyframe Animation [GO]()
-* CSS Transitions [GO]()
-* Transform Property [GO]()
+* Targeted Selectors [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/20_more_selectors.html)
+* nth-child Pseudo Selectors [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/21_nth-child.html)
+* before & after Pseudo Selectors [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/22_before_after.html)
+* CSS Variable [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/23_css_variables.html)
+* Keyframe Animation [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/24_keyframes.html)
+* CSS Transitions [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/25_transitions.html)
+* Transform Property [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/26_transform.html)
 
 ## SASS
 
