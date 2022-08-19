@@ -42,4 +42,4 @@ HTML &amp; CSS Basic Notes and Some Apps
 * Hotel Website 
   * Without Responsive [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Apps/hotel_website/index.html)
   * With Responsive [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Apps/hotel_website_responsive/index.html)
-* EdgeLedger Website [GO]()
+* EdgeLedger Website [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Apps/edgeledger_website/index.html)
