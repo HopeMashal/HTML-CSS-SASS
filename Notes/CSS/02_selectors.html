@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+    <style>
+      /*Element Selectors*/
+      body {
+        background-color: #333;
+      }
+      /* . is for classes*/
+      .gr-1 {
+        color: blue;
+      }
+      /* # is the IDs*/
+      #welcome {
+        background-color: #f4f4f4;
+      }
+      /*Multiple Selectors*/
+      #welcome,
+      #about {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 5px;
+      }
+      /*Nested Selectors*/
+      #welcome p {
+        font-size: 20px;
+      }
+      #about {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="welcome">
+      <h2 class="gr-1">Welcome</h2>
+      <p>
+        Reading is important because it develops your mind and gives you
+        excessive knowledge and lessons of life. It helps you understand the
+        world around you better. It keeps your mind active and enhances your
+        creative ability.
+      </p>
+    </div>
+    <div id="about">
+      <h2>About</h2>
+      <p>
+        Reading is important because it develops your mind and gives you
+        excessive knowledge and lessons of life. It helps you understand the
+        world around you better. It keeps your mind active and enhances your
+        creative ability.
+      </p>
+    </div>
+  </body>
+</html>

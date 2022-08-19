@@ -15,7 +15,20 @@ HTML &amp; CSS Basic Notes and Some Apps
 * HTML5 Semantic [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/HTML/10_html5_semantics_start.html)
 
 ## CSS
-
+* Basic CSS [GO]()
+* Basic CSS Selectors [GO]()
+* Fonts in CSS [GO]()
+* Color Types [GO]()
+* Backgrounds & Border [GO]()
+* Box Shadow [GO]()
+* Text Shadow [GO]()
+* Box Model, Margin & Padding [GO]()
+* Float & Alignment [GO]()
+* Link State & Button Styling [GO]()
+* Navigation Menu Styling [GO]()
+* Inline, Block & Inline-Block Display [GO]()
+* Positioning [GO]()
+* Form Styling [GO]()
 
 ## SASS
 
