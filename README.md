@@ -43,3 +43,4 @@ HTML &amp; CSS Basic Notes and Some Apps
   * Without Responsive [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Apps/hotel_website/index.html)
   * With Responsive [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Apps/hotel_website_responsive/index.html)
 * EdgeLedger Website [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Apps/edgeledger_website/index.html)
+* Website Deployment (with PHP Script) [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Apps/edgeledger_website_final/index.html)
