@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML5 Semantic Tags</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .fa {
+        padding: 12px;
+        font-size: 15px;
+        width: 40px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+      }
+      .fa:hover {
+        opacity: 0.7;
+      }
+      .fa-facebook {
+        background: #3b5998;
+        color: white;
+      }
+
+      .fa-twitter {
+        background: #55acee;
+        color: white;
+      }
+
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      ul {
+        padding: 0;
+        list-style: none;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #333;
+        line-height: 1.4;
+      }
+
+      #header {
+        margin-bottom: 15px;
+        background: #333;
+        color: #fff;
+        padding: 10px;
+        font-family: "PT Sans Caption", sans-serif;
+      }
+
+      #main {
+        float: left;
+        width: 69%;
+      }
+
+      #sidebar {
+        float: right;
+        width: 29%;
+      }
+
+      .clr {
+        clear: both;
+      }
+
+      #footer {
+        background: #333;
+        color: #fff;
+        padding: 10px;
+      }
+      .text-center {
+        display: block;
+        text-align: center;
+      }
+
+      .card {
+        border: 1px solid #ddd;
+        background: #f4f4f4;
+        padding: 20px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <div id="header" class="card">
+      <h1>Hello! My name is Amal</h1>
+      <p>I'm an engineer</p>
+    </div>
+
+    <!-- Main Content (left) -->
+    <div id="main">
+      <!-- Welcome Section -->
+      <div id="welcome" class="card">
+        <h2>Welcome To My Website</h2>
+        <center>
+          <img src="https://news.sponli.com/en/wp-content/uploads/2015/05/09.05-900x1248.jpg" alt="My Image" width="200" />
+        </center>
+        <h3 id="about">About Me</h3>
+        <p>
+          I'm Amal Mishael. I'm 24 old. I'm a graduate majoring in
+          <mark>Mechatronics Engineering</mark>. I studied at Birzeit
+          University. My hobbies are drawing and reading. I like to draw the
+          <b>galaxy and space</b> a lot.
+          <br />
+          <span class="enhance"
+            >I hope to be one of the top ten web developers.</span
+          >
+        </p>
+      </div>
+    </div>
+
+    <!-- Sidebar (right) -->
+    <div id="sidebar" class="card">
+      <h3>Navigation</h3>
+      <!-- Navigation -->
+      <ul id="main-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#follow">Follow Me</a></li>
+      </ul>
+      <hr />
+      <h3 id="follow">Follow Me</h3>
+      <ul>
+        <li>
+          <a href="https://twitter.com"
+            ><span class="fa fa-twitter"></span
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com"
+            ><span class="fa fa-linkedin"></span
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com"
+            ><span class="fa fa-facebook"></span
+          ></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="clr"></div>
+
+    <!-- Footer -->
+    <div id="footer">
+      <p class="text-center">Copyright &copy; My Website 2021</p>
+    </div>
+  </body>
+</html>
