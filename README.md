@@ -41,12 +41,12 @@ HTML &amp; CSS Basic Notes and Some Apps
 * Keyframe Animation [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/24_keyframes.html)
 * CSS Transitions [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/25_transitions.html)
 * Transform Property [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/26_transform.html)
-* Grid Basics & Columns [GO]()
-* Grid Rows [GO]()
-* Grid, Spanning Columns & Rows [GO]()
-* Grid, Auto-Fit & Min/max [GO]()
-* Grid Template Areas [GO]()
-* Media Queries & The Grid [GO]()
+* Grid Basics & Columns [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/27_grid_columns.html)
+* Grid Rows [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/28_grid_rows.html)
+* Grid, Spanning Columns & Rows [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/29_grid_span.html)
+* Grid, Auto-Fit & Min/max [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/30_autofill_minmax.html)
+* Grid Template Areas [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/31_grid_template_areas.html)
+* Media Queries & The Grid [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/32_grid_media_queries.html)
 
 ## SASS
 
