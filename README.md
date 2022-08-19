@@ -49,7 +49,7 @@ HTML &amp; CSS Basic Notes and Some Apps
 * Media Queries & The Grid [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/32_grid_media_queries.html)
 
 ## SASS
-* SASS Basic [GO]()
+* SASS Basic [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/SASS/dist/index.html)
 
 # Apps
 * Hotel Website 
