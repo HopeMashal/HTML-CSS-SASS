@@ -41,6 +41,12 @@ HTML &amp; CSS Basic Notes and Some Apps
 * Keyframe Animation [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/24_keyframes.html)
 * CSS Transitions [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/25_transitions.html)
 * Transform Property [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/CSS/26_transform.html)
+* Grid Basics & Columns [GO]()
+* Grid Rows [GO]()
+* Grid, Spanning Columns & Rows [GO]()
+* Grid, Auto-Fit & Min/max [GO]()
+* Grid Template Areas [GO]()
+* Media Queries & The Grid [GO]()
 
 ## SASS
 
