@@ -34,4 +34,4 @@ HTML &amp; CSS Basic Notes and Some Apps
 
 
 # Apps
-* Hotel Website [GO]()
+* Hotel Website [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Apps/hotel_website/index.html)
