@@ -55,7 +55,6 @@ HTML &amp; CSS Basic Notes and Some Apps
 * Many HTML Exercises [GO](https://github.com/HopeMashal/HTML-Ex.s/tree/master/Ex.s)
 * Many CSS Exercises [GO](https://github.com/HopeMashal/CSS-Ex.s/tree/master/Ex.s)
 * Tesla Mockup [GO](https://github.com/HopeMashal/Tesla)
-* Amazon Mockup [GO](https://github.com/HopeMashal/Amazon)
 * Apple Mockup [GO](https://github.com/HopeMashal/Apple)
 * Hotel Website 
   * Without Responsive [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Apps/hotel_website/index.html)
