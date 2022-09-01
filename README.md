@@ -56,6 +56,7 @@ HTML &amp; CSS Basic Notes and Some Apps
   * Variables
   * Nesting and Parent Element
   * Property Declarations and Placeholder
+  * Control Flow - If and Else
 
 # Apps
 * Many HTML Exercises [GO](https://github.com/HopeMashal/HTML-Ex.s/tree/master/Ex.s)
