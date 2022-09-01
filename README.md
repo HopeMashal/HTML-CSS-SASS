@@ -50,6 +50,10 @@ HTML &amp; CSS Basic Notes and Some Apps
 
 ## SASS
 * SASS Basic [GO](https://github.com/HopeMashal/HTML-CSS-SASS/blob/master/Notes/SASS/SASS_Basic/dist/index.html)
+* SASS Compilation Tools [GO](https://www.sassmeister.com/), [GO](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass), and [GO](http://koala-app.com/)
+* Learn SASS [GO]()
+  * Import And Use And Advanced Architecture
+  * Variables
 
 # Apps
 * Many HTML Exercises [GO](https://github.com/HopeMashal/HTML-Ex.s/tree/master/Ex.s)
