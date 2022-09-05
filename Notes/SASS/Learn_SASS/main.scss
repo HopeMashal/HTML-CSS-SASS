@@ -63,60 +63,60 @@ $max_mobile: "max-width: 767px";
 }
 
 .parent > {
-  .child{
+  .child {
     font-size: 22px;
   }
-  .test{
+  .test {
     font-weight: bolder;
   }
 }
 
 .parent {
-  > .child{
+  > .child {
     font-size: 20px;
   }
-  .test{
+  .test {
     font-weight: bold;
   }
-  + p{
+  + p {
     font-size: 15px;
   }
 }
 
-.parent{
-  >{
-    .element-one{
+.parent {
+  > {
+    .element-one {
       font-size: 10px;
     }
-    .element-two{
+    .element-two {
       font-size: 20px;
     }
   }
-  .not-direct-child{
+  .not-direct-child {
     font-weight: bold;
   }
 }
 
-.box{
-  .title{
+.box {
+  .title {
     font-size: 12px;
   }
-  .description{
+  .description {
     font-size: 15px;
   }
-  &.red{
-    color:red;
+  &.red {
+    color: red;
   }
-  &.green{
+  &.green {
     color: green;
   }
-  &:hover{
+  &:hover {
     background-color: #eee;
-    .title{
+    .title {
       font-weight: bold;
     }
   }
-  :not(&){
+  :not(&) {
     font-weight: normal;
   }
   [dir="rtl"] & {
@@ -126,32 +126,33 @@ $max_mobile: "max-width: 767px";
 
 //! Property Declarations and Placeholder
 
-.box{
+.box {
   font-size: 20px;
   font: {
     size: 15px;
     weight: bold;
   }
   padding: 10px;
-  margin: auto{
-    top:10px;
+  margin: auto {
+    top: 10px;
     bottom: 15px;
   }
 }
 
-%main-box{ //Source
+%main-box {
+  //Source
   background-color: white;
   padding: 15px;
   border: 1px solid #ccc;
 }
 
-.ads{
+.ads {
   @extend %main-box;
   font-size: 20px;
   color: red;
 }
 
-.article{
+.article {
   @extend %main-box;
   font-size: 22px;
   color: green;
@@ -159,10 +160,10 @@ $max_mobile: "max-width: 767px";
 
 //! Control Flow - If and Else
 
-$theme: 'light';
+$theme: "light";
 
-.page{
-  @if $theme == 'light' {
+.page {
+  @if $theme == "light" {
     background-color: white;
     color: #444;
   } @else {
@@ -171,17 +172,17 @@ $theme: 'light';
   }
 }
 
-$rounded : false;
+$rounded: false;
 
-.box{
+.box {
   @extend %main-box;
-  border-radius: if($rounded, 6px, null);// if statement, true , false
+  border-radius: if($rounded, 6px, null); // if statement, true , false
 }
 
 //! Create Triangle with if & Else
 
-$direction: 'top';
-.arrow-div{
+$direction: "top";
+.arrow-div {
   @extend %main-box;
   font-size: 20px;
   display: flex;
@@ -191,33 +192,47 @@ $direction: 'top';
   height: 300px;
   position: relative;
   margin: 50px auto;
-  &::before{
+  &::before {
     content: "";
     position: absolute;
     border: 20px solid transparent;
-    @if $direction == 'top'{
+    @if $direction == "top" {
       top: -40px;
       left: 50%;
       transform: translateX(-50%);
       border-bottom-color: red;
-    } @else if $direction == 'right'{
+    } @else if $direction == "right" {
       right: -40px;
       top: 50%;
       transform: translateY(-50%);
       border-left-color: red;
-    } @else if $direction == 'bottom'{
+    } @else if $direction == "bottom" {
       bottom: -40px;
       left: 50%;
       transform: translateX(-50%);
       border-top-color: red;
-    } @else if $direction == 'left'{
+    } @else if $direction == "left" {
       left: -40px;
       top: 50%;
       transform: translateY(-50%);
       border-right-color: red;
-    } @else{
-      @error 'This direction #{$direction} in NOT valid'
+    } @else {
+      @error 'This direction #{$direction} in NOT valid';
     }
   }
 }
 
+//! Interpolation
+
+$company: 'Hope';
+$position: 'left';
+
+.add-#{$company}-#{unique-id()}{
+  font-size: 20px;
+  background-image: url("images/#{$company}.png");
+  #{$position}: 0;
+}
+
+.ad-#{unique-id()}{
+  font-weight: bold;
+}
