@@ -103,7 +103,7 @@
 :not(.box) {
   font-weight: normal;
 }
-[dir=rtl] .box {
+[dir="rtl"] .box {
   direction: rtl;
 }
 
@@ -117,7 +117,10 @@
   margin-bottom: 15px;
 }
 
-.arrow-div, .box, .article, .ads {
+.arrow-div,
+.box,
+.article,
+.ads {
   background-color: white;
   padding: 15px;
   border: 1px solid #ccc;
@@ -158,12 +161,20 @@
   border-bottom-color: red;
 }
 
-.add-Hope-uajg7s2 {
+.add-Hope-uajg8wn {
   font-size: 20px;
   background-image: url("images/Hope.png");
   left: 0;
 }
 
-.ad-uajg7sz {
+.ad-uajg8x5 {
   font-weight: bold;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/* This comment will show in css file but not in Compressed mode */
+/*! This comment will show in css file and in Compressed mode */
+.box {
+  font-size: 20px;
+}
+
+/* This Comment Contains Interpolation => Hope */ /*# sourceMappingURL=main.css.map */

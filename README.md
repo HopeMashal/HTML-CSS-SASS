@@ -58,6 +58,7 @@ HTML &amp; CSS Basic Notes and Some Apps
   * Property Declarations and Placeholder
   * Control Flow - If and Else
   * Interpolation
+  * Comments & Documenting
 
 # Apps
 * Many HTML Exercises [GO](https://github.com/HopeMashal/HTML-Ex.s/tree/master/Ex.s)
