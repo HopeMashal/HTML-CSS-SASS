@@ -117,7 +117,7 @@
   margin-bottom: 15px;
 }
 
-.article, .ads {
+.box, .article, .ads {
   background-color: white;
   padding: 15px;
   border: 1px solid #ccc;
@@ -131,4 +131,9 @@
 .article {
   font-size: 22px;
   color: green;
+}
+
+.page {
+  background-color: white;
+  color: #444;
 }/*# sourceMappingURL=main.css.map */
