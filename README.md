@@ -59,6 +59,7 @@ HTML &amp; CSS Basic Notes and Some Apps
   * Control Flow - If and Else
   * Interpolation
   * Comments & Documenting
+  * Mixin & Include
 
 # Apps
 * Many HTML Exercises [GO](https://github.com/HopeMashal/HTML-Ex.s/tree/master/Ex.s)
