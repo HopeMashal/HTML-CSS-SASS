@@ -65,6 +65,7 @@ HTML &amp; CSS Basic Notes and Some Apps
   * While Loop
   * Functions
   * Media 
+  * Important Links [GO](https://github.com/drublic/SASS-Mixins), [GO](https://github.com/7ninjas/scss-mixins)
 
 # Apps
 * Many HTML Exercises [GO](https://github.com/HopeMashal/HTML-Ex.s/tree/master/Ex.s)

@@ -404,21 +404,21 @@ $width: 200px;
   to {
     bottom: 100px;
   }
-} ;
+}
 
 //! Create Media Queries Mixin
 
-.media{
-  @include breakpoint(mobile){
+.media {
+  @include breakpoint(mobile) {
     font-size: 15px;
   }
-  @include breakpoint(small){
+  @include breakpoint(small) {
     font-size: 18px;
   }
-  @include breakpoint(medium){
+  @include breakpoint(medium) {
     font-size: 20px;
   }
-  @include breakpoint(large){
+  @include breakpoint(large) {
     font-size: 22px;
   }
 }
