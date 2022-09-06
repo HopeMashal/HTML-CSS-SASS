@@ -63,6 +63,7 @@ HTML &amp; CSS Basic Notes and Some Apps
   * For Loop
   * Each & Maps
   * While Loop
+  * Functions
 
 # Apps
 * Many HTML Exercises [GO](https://github.com/HopeMashal/HTML-Ex.s/tree/master/Ex.s)

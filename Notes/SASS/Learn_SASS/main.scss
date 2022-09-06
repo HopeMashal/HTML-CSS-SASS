@@ -12,6 +12,9 @@
 // Import Mixins
 @use "./helpers/mixins" as *;
 
+//Import Functions
+@use "./helpers/functions" as *;
+
 //! Variables
 // Global Variable
 $alt_color: green;
@@ -337,10 +340,10 @@ $socials: (
   }
 }
 
-$classes: 'one' 20px red, 'two' 15px green, 'three' 22px blue;
+$classes: "one" 20px red, "two" 15px green, "three" 22px blue;
 
-@each $class, $font, $color in $classes{
-  .#{$class}{
+@each $class, $font, $color in $classes {
+  .#{$class} {
     font-size: $font;
     background-color: $color;
     color: white;
@@ -353,7 +356,7 @@ $classes: 'one' 20px red, 'two' 15px green, 'three' 22px blue;
 $start: 1;
 
 @while $start <= 10 {
-  .width-#{$start * 100}{
+  .width-#{$start * 100} {
     width: $start * 100px;
     height: ($start * 100px)/2;
   }
@@ -365,7 +368,17 @@ $start: 1;
 $grid-cols: 12;
 
 @for $i from 1 through $grid-cols {
-  .col-#{$i}{
+  .col-#{$i} {
     width: percentage($i/$grid-cols);
   }
+}
+
+//! Functions
+
+$width: 200px;
+
+.element {
+  width: $width;
+  height: half($width);
+  top: calculate(100px, 200px, 50px);
 }

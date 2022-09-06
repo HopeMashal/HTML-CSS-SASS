@@ -158,13 +158,13 @@
   border-bottom-color: red;
 }
 
-.add-Hope-ulhq09x {
+.add-Hope-ulhq1n7 {
   font-size: 20px;
   background-image: url("images/Hope.png");
   left: 0;
 }
 
-.ad-ulhq0as {
+.ad-ulhq1o2 {
   font-weight: bold;
 }
 
@@ -483,4 +483,10 @@ ul.links {
 
 .col-12 {
   width: 100%;
+}
+
+.element {
+  width: 200px;
+  height: 100px;
+  top: 350px;
 }/*# sourceMappingURL=main.css.map */
