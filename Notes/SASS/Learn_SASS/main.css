@@ -158,13 +158,13 @@
   border-bottom-color: red;
 }
 
-.add-Hope-uajg944 {
+.add-Hope-ud4gxdk {
   font-size: 20px;
   background-image: url("images/Hope.png");
   left: 0;
 }
 
-.ad-uajg950 {
+.ad-ud4gxe3 {
   font-weight: bold;
 }
 
@@ -174,4 +174,25 @@
   font-size: 20px;
 }
 
-/* This Comment Contains Interpolation => Hope *//*# sourceMappingURL=main.css.map */
+/* This Comment Contains Interpolation => Hope */
+ul.links {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.circle-100 {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: white;
+}
+
+.circle-200 {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  color: white;
+}/*# sourceMappingURL=main.css.map */
