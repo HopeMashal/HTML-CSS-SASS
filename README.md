@@ -64,6 +64,7 @@ HTML &amp; CSS Basic Notes and Some Apps
   * Each & Maps
   * While Loop
   * Functions
+  * Media 
 
 # Apps
 * Many HTML Exercises [GO](https://github.com/HopeMashal/HTML-Ex.s/tree/master/Ex.s)
