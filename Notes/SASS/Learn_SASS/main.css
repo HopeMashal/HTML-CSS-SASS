@@ -158,13 +158,13 @@
   border-bottom-color: red;
 }
 
-.add-Hope-ud4gxdk {
+.add-Hope-ud4gy4o {
   font-size: 20px;
   background-image: url("images/Hope.png");
   left: 0;
 }
 
-.ad-ud4gxe3 {
+.ad-ud4gy4x {
   font-weight: bold;
 }
 
@@ -195,4 +195,13 @@ ul.links {
   height: 200px;
   background-color: red;
   color: white;
+}
+
+.center-circle {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */

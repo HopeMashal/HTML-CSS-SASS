@@ -9,6 +9,9 @@
 @use "./variables/color" as *;
 //OR use "./variables/color";
 
+// Import Mixins
+@use "./helpers/mixins" as *;
+
 //! Variables
 // Global Variable
 $alt_color: green;
@@ -261,20 +264,8 @@ Comments */ {
 
 //! Mixin & Include
 
-@mixin  list-reset {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
 ul.links {
   @include list-reset;
-}
-
-@mixin circle($dimensions) {
-  border-radius: 50%;
-  width: $dimensions;
-  height: $dimensions;
 }
 
 .circle-100 {
@@ -289,3 +280,7 @@ ul.links {
   color: white;
 }
 
+.center-circle {
+  @include circle(400px);
+  @include centering;
+}
