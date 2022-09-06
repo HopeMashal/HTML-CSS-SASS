@@ -287,13 +287,14 @@ ul.links {
 
 //! For Loop
 
-@for $i from 1 through 10 { // to --> without 10, through --> with 10
+@for $i from 1 through 10 {
+  // to --> without 10, through --> with 10
   .class-#{$i} {
     font-size: #{$i + 10px};
   }
 }
 
-$dimensions : 0;
+$dimensions: 0;
 @for $i from 1 to 11 {
   .circle-#{100 + $dimensions} {
     width: $dimensions + 100px;
@@ -302,3 +303,48 @@ $dimensions : 0;
   }
   $dimensions: $dimensions + 100;
 }
+
+//! Each & Maps
+
+$themes: red, green, blue, orange;
+
+@each $theme in $themes {
+  .#{$theme}-theme {
+    .product {
+      background-color: white;
+      border-bottom: 2px solid $theme;
+      .title {
+        color: $theme;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+$socials: (
+  "facebook": blue,
+  "youtube": red,
+  "github": black,
+);
+
+@each $name, $color in $socials {
+  .#{$name} {
+    background-color: $color;
+    color: white;
+    &::before {
+      content: $name;
+    }
+  }
+}
+
+$classes: 'one' 20px red, 'two' 15px green, 'three' 22px blue;
+
+@each $class, $font, $color in $classes{
+  .#{$class}{
+    font-size: $font;
+    background-color: $color;
+    color: white;
+    padding: $font / 2;
+  }
+}
+
