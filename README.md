@@ -62,6 +62,7 @@ HTML &amp; CSS Basic Notes and Some Apps
   * Mixin & Include, Mixin Library [GO](https://github.com/7ninjas/scss-mixins)
   * For Loop
   * Each & Maps
+  * While Loop
 
 # Apps
 * Many HTML Exercises [GO](https://github.com/HopeMashal/HTML-Ex.s/tree/master/Ex.s)
